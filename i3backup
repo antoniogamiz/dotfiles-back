@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# antoniogamiz/i3wm must exist under ~/.config
+
+REPO=~/.config/i3wm
+
+cp -a ~/.config/i3/ $REPO/i3/
+cp -a ~/.config/i3status/ $REPO/i3status
+cp ~/.local/bin/i3exit $REPO/i3exit
+cp ~/.local/bin/i3backup $REPO/i3backup
+
+cd $REPO
+git add .
+git commit -m "Automated backup, $(date)"
