@@ -13,7 +13,18 @@ exec --no-startup-id i3-msg 'workspace $ws1; exec google-chrome-stable'
 exec --no-startup-id i3-msg 'workspace $ws8; exec spotify'
 exec --no-startup-id i3-msg 'workspace $ws9; exec telegram-desktop'
 
+# #---Dropdown Windows---# #
+# General dropdown window traits. The order can matter.
+for_window [title="floating_terminal"] floating enable
+for_window [title="floating_terminal"] move scratchpad
+for_window [title="floating_terminal"] sticky enable
+for_window [title="floating_terminal"] scratchpad show
+for_window [title="floating_terminal"] resize set 625 450
+for_window [title="floating_terminal"] border pixel 3
+for_window [title="floating_terminal"] move position center
+
 # start a terminal
+bindsym $super+u exec --no-startup-id ddspawn
 bindsym $super+Return exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
@@ -88,15 +99,19 @@ bindsym $super+8 workspace $ws8
 bindsym $super+9 workspace $ws9
 
 # move focused container to workspace
-bindsym $super+Shift+1 move container to workspace 1
+bindsym $super+Shift+1 move container to workspace $ws1
 bindsym $super+Shift+2 move container to workspace 2
 bindsym $super+Shift+3 move container to workspace 3
 bindsym $super+Shift+4 move container to workspace 4
 bindsym $super+Shift+5 move container to workspace 5
 bindsym $super+Shift+6 move container to workspace 6
 bindsym $super+Shift+7 move container to workspace 7
-bindsym $super+Shift+8 move container to workspace 8
-bindsym $super+Shift+9 move container to workspace 9
+bindsym $super+Shift+8 move container to workspace $ws8
+bindsym $super+Shift+9 move container to workspace $ws9
+
+# move workspaces
+bindsym $super+Shift+j move workspace to output left
+bindsym $super+Shift+k move workspace to output right
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $super+Shift+r restart
@@ -147,7 +162,7 @@ bar {
 }
 
 # window rules, you can find the window class using xprop
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1
 
 # colour of border, background, text, indicator, and child_border
 client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8

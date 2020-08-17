@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if xwininfo -tree -root | grep "(\"floating_terminal\" ";
+then
+	echo "Window detected."
+	i3 "[title=\"floating_terminal\"] scratchpad show; [instance=\"floating_terminal\"] move position center"
+else
+	echo "Window not detected... spawning."
+	i3 "exec --no-startup-id i3-sensible-terminal -T floating_terminal"
+fi
