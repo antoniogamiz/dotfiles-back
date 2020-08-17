@@ -12,7 +12,7 @@ cp ~/.local/bin/i3backup $REPO/i3backup
 # zshrc config
 cp ~/.zshrc $REPO/.zshrc
 # replace tokens
-sed -i '/TOKEN/c\censored' .zshrc
+sed -i '/TOKEN/c\censored' $REPO/.zshrc
 
 cd $REPO
 git add .
