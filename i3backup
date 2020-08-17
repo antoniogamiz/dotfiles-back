@@ -8,6 +8,7 @@ REPO=~/.config/i3wm
 
 cp -a ~/.config/i3/ $REPO/i3/
 cp -a ~/.config/i3status/ $REPO/i3status
+cp -a ~/.config/compton.conf $REPO/compton.conf
 
 # =====================================
 # these programs should be moved to a 

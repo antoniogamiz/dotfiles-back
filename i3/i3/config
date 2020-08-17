@@ -10,8 +10,6 @@ floating_modifier $super
 #autostart
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id i3-msg 'workspace $ws1; exec google-chrome-stable'
-exec --no-startup-id i3-msg 'workspace $ws8; exec spotify'
-exec --no-startup-id i3-msg 'workspace $ws9; exec telegram-desktop'
 
 # #---Dropdown Windows---# #
 # General dropdown window traits. The order can matter.
