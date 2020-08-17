@@ -8,6 +8,7 @@ cp -a ~/.config/i3/ $REPO/i3/
 cp -a ~/.config/i3status/ $REPO/i3status
 cp ~/.local/bin/i3exit $REPO/i3exit
 cp ~/.local/bin/i3backup $REPO/i3backup
+cp ~/.zshrc $REPO/.zshrc
 
 cd $REPO
 git add .
