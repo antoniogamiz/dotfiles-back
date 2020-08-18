@@ -1,0 +1,11 @@
+#!/bin/bash
+
+monitors_connected=$(xrandr --query | grep '\bconnected\b' | wc -l)
+
+if [ $monitors_conected = "3" ]
+then
+	setup_dual_display
+	exit
+fi
+
+setup_single_display

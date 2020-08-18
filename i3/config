@@ -9,6 +9,7 @@ font pango: Noto Sans 8
 floating_modifier $super
 
 #autostart
+exec --no-startup-id setup_monitors
 exec --no-startup-id nitrogen --restore
 
 # #---Dropdown Windows---# #

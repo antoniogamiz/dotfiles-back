@@ -48,11 +48,5 @@ alias ....="cd ../../.. && clear && ls"
 alias .....="cd ../../../.. && clear && ls"
 alias ctc="xclip -selection clipboard -i"
 
-# screen configurations (arandr)
-
-alias twomonitors="xrandr --output HDMI-2 --primary --mode 2560x1080 --pos 1920x0 --rotate normal --output HDMI-1 --off --output DP-1 --mode 1920x1080 --pos 0x0 --rotate normal --output eDP-1 --off --output DP-2 --off"
-alias onemonitor="xrandr --output HDMI-2 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output HDMI-1 --off --output DP-1 --off --output eDP-1 --off --output DP-2 --off"
-
-
 # this line cannot be moved
 source /home/antonio/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

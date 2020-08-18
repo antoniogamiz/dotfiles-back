@@ -15,7 +15,7 @@ done
 # =====================================
 
 mkdir -p $REPO/.local/bin/
-binaries=(i3exit i3backup ddspawn)
+binaries=(i3exit i3backup ddspawn setup_dual_display setup_single_display setup_monitors)
 for bin in "${binaries[@]}"
 do
 	cp ~/.local/bin/$bin $REPO/.local/bin/$bin
