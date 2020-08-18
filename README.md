@@ -8,7 +8,7 @@ This is my personal setup for i3wm in Ubuntu 18.04.
 - `rofi`: for `alt+d` menu.
 - `playerctl` for media controls, see [this question](https://askubuntu.com/questions/1080671/how-can-i-install-playerctl) for more information.
 - `compton` for transparencies.
-
+- `blueman` for bluetooth devices.
 ### References
 
 - [Example of configuration](https://github.com/addy-dclxvi/i3-starterpack/tree/8f18c0dc22bd0fb48eb9f5b9b7812627552a2107)
