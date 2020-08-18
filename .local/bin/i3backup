@@ -6,8 +6,11 @@ REPO=~/.config/i3wm
 
 # ======================================
 
-cp -a ~/.config/i3/ $REPO/i3/
-cp -a ~/.config/i3status/ $REPO/i3status
+config_dirs=(i3 i3status)
+for dir in "$config_dirs{[@]}"
+do
+	cp -a ~/.config/$dir/ $REPO/
+done
 
 # =====================================
 
