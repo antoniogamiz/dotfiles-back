@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# antoniogamiz/i3wm must exist under ~/.config
+
+REPO=~/.config/i3wm
+
+# ======================================
+
+cp -a ~/.config/i3/ $REPO/i3/
+cp -a ~/.config/i3status/ $REPO/i3status
+
+# =====================================
+
+mkdir -p $REPO/.local/bin/
+binaries=(i3exit i3backup ddspawn)
+for bin in "${binaries[@]}"
+do
+	cp ~/.local/bin/$bin $REPO/.local/bin/$bin
+done
+
+# =====================================
+
+# zshrc config
+cp ~/.zshrc $REPO/.zshrc
+# replace tokens
+sed -i '/TOKEN/c\censored' $REPO/.zshrc
+
+cd $REPO
+git add .
+git commit -m "Automated backup, $(date)"
+git push 
