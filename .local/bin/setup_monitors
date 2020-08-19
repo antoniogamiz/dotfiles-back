@@ -2,7 +2,7 @@
 
 monitors_connected=$(xrandr --query | grep '\bconnected\b' | wc -l)
 
-if [ $monitors_conected = "3" ]
+if [ "$monitors_connected" == '3' ]
 then
 	setup_dual_display
 	exit
