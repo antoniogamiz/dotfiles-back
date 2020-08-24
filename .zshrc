@@ -41,6 +41,7 @@ censored
 
 alias ddocumentable="pushd ~/raku/Documentable"
 alias tfg="pushd ~/code/tfg"
+alias tfgc="pushd ~/code/tfg_code"
 alias x="clear && ls"
 alias ..="cd .. && clear && ls"
 alias ...="cd ../.. && clear && ls"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# avoid open two different windows of spotify
+
+if [ $(ps aux | grep spotify | wc -l) -le 4 ]
+then 
+	echo "True"
+	spotify
+fi
+
+ps aux | grep spotify
