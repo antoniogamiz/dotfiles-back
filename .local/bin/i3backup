@@ -28,6 +28,11 @@ cp ~/.zshrc $REPO/.zshrc
 # replace tokens
 sed -i '/TOKEN/c\censored' $REPO/.zshrc
 
+# =====================================
+
+# git config
+cp ~/.gitconfig $REPO/.gitconfig
+cp ~/.gitmessage $REPO/.gitmessage
 cd $REPO
 git add .
 git commit -m "Automated backup, $(date)"

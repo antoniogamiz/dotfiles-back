@@ -36,6 +36,8 @@ autoload -U compinit && compinit
 
 censored
 censored
+censored
+censored
 
 # pushd -> https://dev.to/jimmymcbride/bash-how-to-teleport-in-the-terminal-1e09
 
