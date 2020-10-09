@@ -1,0 +1,13 @@
+[core]
+	editor = vim
+[user]
+	name = Antonio Gamiz
+	email = antoniogamiz10@gmail.com
+[alias]
+	la = log --graph --abbrev-commit --decorate --date=relative --all
+	l =log --graph --oneline --decorate --all
+	update = !git pull upstram master --rebase
+	st = status
+	p = !git pull --rebase && git push
+[commit]
+	template = /home/antonio/.gitmessage
