@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# antoniogamiz/dotfiles must exist under ~/.config
+
+REPO=~/.config/dotfiles
+
+# =====================================
+
+# zshrc config
+cp ~/.zshrc $REPO/.zshrc
+# replace tokens
+sed -i '/TOKEN/c\censored' $REPO/.zshrc
+
+# =====================================
+
+# git config
+cp ~/.gitconfig $REPO/.gitconfig
+cp ~/.gitmessage $REPO/.gitmessage
+
+# ====================================
+
+cp /etc/cron.daily/dotfiles .
+
+# =====================================
+
+cd $REPO
+git add .
+git commit -m "Automated backup, $(date)"
+git push 
