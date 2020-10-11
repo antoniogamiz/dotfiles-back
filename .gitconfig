@@ -6,8 +6,10 @@
 [alias]
 	la = log --graph --abbrev-commit --decorate --date=relative --all
 	l =log --graph --oneline --decorate --all
-	update = !git pull upstram master --rebase
+	update = !git pull upstream master --rebase
 	st = status
 	p = !git pull --rebase && git push
 [commit]
 	template = /home/antonio/.gitmessage
+[pull]
+	rebase = true
