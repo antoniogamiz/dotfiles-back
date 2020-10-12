@@ -2,7 +2,7 @@
 
 # antoniogamiz/dotfiles must exist under ~/.config
 
-REPO=~/.config/dotfiles
+REPO=~/dotfiles
 
 # =====================================
 
