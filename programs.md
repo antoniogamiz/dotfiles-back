@@ -1,0 +1,6 @@
+- vim, curl
+- git, gh, gh completions (`gh completion -s zsh > ~/.oh-my-zsh/custom/plugins/gh/_gh`).
+- zsh, oh-my-zsh, zsh-syntax-highlighting
+- deno, deno completions
+- nvm, node
+- code
