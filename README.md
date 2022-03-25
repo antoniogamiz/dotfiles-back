@@ -33,7 +33,8 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⎇ + ←/→  | Move caret to the start/end of word |
 |  ⌘ + b        | Method declaration |
 |  ⌘ + ⎇ + B    | Method implementation |
-|  ⌘ + ⇧ + ↑/↓  | Move lines |
+|  ⌘ + ⇧ + ↑/↓  | Move statement up/down |
+|  ⎇ + ⇧ + ↑/↓  | Move line/selection up/down |
 |  ⎇ + ⎇ + ↑/↓ | Add caret up/down|
 |  ⌃ + ⇧ + ↑/↓ | Go to next/previous method |
 
