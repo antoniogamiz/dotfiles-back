@@ -45,6 +45,7 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⎇ + ↑/↓ | Select by blocks |
 |  ⇧ + F6  | Refactor |
 |  ⌘ + ⇧ + L  | Add caret to all matches |
+|  ⎇ + ⇧ + G  | Add caret to end of selected lines |
 |  ⌘ + ⇧ + C  | Comment/Uncomment code |
 |  ⌘ + ⎇ + M  | Refactor/Extract method |
 
