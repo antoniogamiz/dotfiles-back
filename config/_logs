@@ -1,0 +1,16 @@
+#compdef logs
+
+_logs() {
+  local state
+
+  _arguments \
+    '1: :->environment'\
+    '2: :->worker'
+
+  case $state in
+    (environment) _arguments '1:profiles:(staging-1 staging-2 staging-crm staging-sandbox automated-tests testapp testing-template)' ;;
+    (worker) compadd "$@" web backup celeryd datafetcher export heavylifting importworker recordimportworker reset routes transactional urgentworker
+  esac
+}
+
+_logs "$@"
