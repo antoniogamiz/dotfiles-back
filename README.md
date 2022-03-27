@@ -8,6 +8,9 @@ Execute the following commands to enable dotfiles backup:
 sudo cp dotfiles /etc/cron.daily/
 ~~~
 
+### Usefil things MacOs
+
+- `pbcopy`/ `pbpaste`: copy/paste command from terminal to/from clipboard.
 
 ### Movement (between windows)
 
