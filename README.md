@@ -11,6 +11,7 @@ sudo cp dotfiles /etc/cron.daily/
 ### Usefil things MacOs
 
 - `pbcopy`/ `pbpaste`: copy/paste command from terminal to/from clipboard.
+- Use [Rectangle](https://github.com/rxhanson/Rectangle) to manage your windows with shortcuts.
 
 ### Movement (between windows)
 
