@@ -18,6 +18,10 @@ sudo cp dotfiles /etc/cron.daily/
 - `pbcopy`/ `pbpaste`: copy/paste command from terminal to/from clipboard.
 - Use [Rectangle](https://github.com/rxhanson/Rectangle) to manage your windows with shortcuts.
 
+### Pycharm configuration
+
+- Use "CamelHumps" words: this is to stop at '_' or the next word in camel case.
+
 ### Movement (between windows)
 
 |  ⌘ + E    | Recent files |
