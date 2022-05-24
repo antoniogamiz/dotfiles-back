@@ -27,6 +27,7 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⌘ + E    | Recent files |
 |---|---|
 |  ⌃ + R    | Search in terminal (previous commands) |
+|  ⌘ + 0    | Database |
 |  ⌘ + 1    | Commit window |
 |  ⌘ + 2    | File explorer |
 |  ⌘ + 3    | Terminal |
