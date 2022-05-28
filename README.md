@@ -52,6 +52,7 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⎇ + ⇧ + ↑/↓  | Move line/selection up/down |
 |  ⎇ + ⎇ + ↑/↓ | Add caret up/down|
 |  ⌃ + ⇧ + ↑/↓ | Go to next/previous method |
+|  ⌘ + <       | Select opened file in browser |
 
 ### Edit shortcuts
 
