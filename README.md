@@ -54,6 +54,7 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⌃ + ⇧ + ↑/↓ | Go to next/previous method |
 |  ⌘ + <       | Select opened file in browser |
 |  F2       | Go to next problem |
+|  ⎇ + Space | See quick definition |
 
 ### Edit shortcuts
 
