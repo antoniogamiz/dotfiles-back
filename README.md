@@ -53,18 +53,18 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⎇ + ⎇ + ↑/↓ | Add caret up/down|
 |  ⌃ + ⇧ + ↑/↓ | Go to next/previous method |
 |  ⌘ + <       | Select opened file in browser |
+|  F2       | Go to next problem |
 
 ### Edit shortcuts
 
 |  ⌘ + D  | Duplicate line |
 |---|---|
 |  ⎇ + ↑/↓ | Select by blocks |
-|  ⇧ + F6  | Refactor |
+|  ⇧ + F6  | Rename |
 |  ⌘ + ⇧ + L  | Add caret to all matches |
 |  ⎇ + ⇧ + G  | Add caret to end of selected lines |
 |  ⌘ + ⇧ + C  | Comment/Uncomment code |
 |  ⌘ + ⎇ + M  | Refactor/Extract method |
-
-
-
-
+|  ⌘ + ⇧ + U  | Lower/Upper case selection |
+|  ⌃ + T    | Show refactor tools |
+|  ⎇ + ⎆  | Show possible solutions for problem |
