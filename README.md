@@ -1,5 +1,7 @@
 # Dotfiles
 
+- [JIRA CLI](https://github.com/ankitpokhrel/jira-cli)
+
 ## Use
 
 Execute the following commands to enable dotfiles backup: 
