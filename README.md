@@ -2,6 +2,7 @@
 
 - [JIRA CLI](https://github.com/ankitpokhrel/jira-cli)
 - https://www.usboverdrive.com/index.php/download/
+- https://www.youtube.com/watch?v=vX4VlFBQ-uI
 
 ## Use
 
@@ -72,3 +73,4 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⌘ + ⇧ + U  | Lower/Upper case selection |
 |  ⌃ + T    | Show refactor tools |
 |  ⎇ + ⎆  | Show possible solutions for problem |
+|  ⌃ + G    | Place multi-cursor in next occurrence |
