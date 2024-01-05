@@ -10,6 +10,14 @@ Install Extensions Manager using Ubuntu Software. Then install:
 - Install zsh and ohmyzsh
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+## Git
+
+Install ssh key and if it does not work use -> https://askubuntu.com/a/1418608/797072
+
+## Editor
+
+If the executable for the Intelij Toolbar does not open, try to open it from the terminal with ´./executable´.
+
 ## Keyboard related
 
 - Assign Close Window to Command + W
