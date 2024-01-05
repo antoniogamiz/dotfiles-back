@@ -16,7 +16,7 @@ Install ssh key and if it does not work use -> https://askubuntu.com/a/1418608/7
 
 ## Editor
 
-If the executable for the Intelij Toolbar does not open, try to open it from the terminal with ´./executable´.
+If the executable for the Intelij Toolbar does not open, try to open it from the terminal with ./executable.
 
 ## Keyboard related
 
