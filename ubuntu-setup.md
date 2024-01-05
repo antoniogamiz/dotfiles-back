@@ -5,7 +5,11 @@ Install Extensions Manager using Ubuntu Software. Then install:
 - Custom Hot Corners - Extended (probably you will need to search for gdh word)
 - Search light (search by iceman)
 
-## Swap Command and Control keys
+## Keyboard related
+
+- Assign Close Window to Command + W
+
+### Swap Command and Control keys
 
 To swap Command and Control -> https://askubuntu.com/a/137456
 
