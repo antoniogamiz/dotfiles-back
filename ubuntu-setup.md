@@ -5,6 +5,11 @@ Install Extensions Manager using Ubuntu Software. Then install:
 - Custom Hot Corners - Extended (probably you will need to search for gdh word)
 - Search light (search by iceman)
 
+## Terminal
+
+- Install zsh and ohmyzsh
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
 ## Keyboard related
 
 - Assign Close Window to Command + W
@@ -14,14 +19,13 @@ Install Extensions Manager using Ubuntu Software. Then install:
 To swap Command and Control -> https://askubuntu.com/a/137456
 
 ~~~bash
-# This file will be called automatically on login
 vim ~/.xmodmap
 
 remove mod4 = Super_L
 add control = Super_L
 
-# Run it to avoid having to logout-in
 xmodmap .xmodmap
+# https://askubuntu.com/a/1082273 Dont add it to .zshrc
 ~~~
 
 ## Programs to install
