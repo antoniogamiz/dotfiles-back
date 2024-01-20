@@ -3,6 +3,7 @@
 - [JIRA CLI](https://github.com/ankitpokhrel/jira-cli)
 - https://www.usboverdrive.com/index.php/download/
 - https://www.youtube.com/watch?v=vX4VlFBQ-uI
+- https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9
 
 ## Use
 
