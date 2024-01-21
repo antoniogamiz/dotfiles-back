@@ -3,7 +3,24 @@
 - [JIRA CLI](https://github.com/ankitpokhrel/jira-cli)
 - https://www.usboverdrive.com/index.php/download/
 - https://www.youtube.com/watch?v=vX4VlFBQ-uI
-- https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9
+- https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9 . Also add:
+
+```bash
+function personal_github_account() {
+	git config --global user.name "antoniogamiz"
+	git config --global user.email "antoniogamiz10@gmail.com"
+    ssh-add -D && ssh-add ~/.ssh/personal_user
+}
+
+
+function work_github_account() {
+    git config --global user.name "antoniogamizbadger"
+    git config --global user.email "antonio.gamiz@badgermapping.com"
+    ssh-add -D && ssh-add ~/.ssh/id_ed25519
+}
+```
+  
+- To fix commits authored by other account: https://stackoverflow.com/a/1320317/8849071
 
 ## Use
 
