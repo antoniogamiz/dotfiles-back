@@ -59,6 +59,7 @@ sudo cp dotfiles /etc/cron.daily/
 |  ⌃ + 2    | Go to next split editor |
 |  ⇧ + ⎆    | Split and move editor to right |
 |  Escape    | Focus editor |
+|   ⌘ + ⇧ + .    | Move in breadcrumbs file |
 |   ⌘ + L   | Go to address bar |
 
 
