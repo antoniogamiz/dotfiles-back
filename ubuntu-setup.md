@@ -2,8 +2,12 @@
 
 Install Extensions Manager using Ubuntu Software. Then install:
 
+Search by name seems to work pretty bad in this application, so you will need to look for either the author 
+or part of the word and hopefully your desired result will appear.
+
 - Custom Hot Corners - Extended (probably you will need to search for gdh word)
 - Search light (search by iceman)
+- Hide Top Bar (search by tuxor1337)
 
 ## Terminal
 
